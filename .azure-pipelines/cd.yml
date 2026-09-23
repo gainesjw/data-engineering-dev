@@ -1,0 +1,31 @@
+# Register after targets, service connections and environment checks are ready.
+trigger: none
+pr: none
+
+resources:
+  repositories:
+    - repository: platform
+      type: git
+      name: platform-dev
+      ref: refs/heads/main
+  pipelines:
+    - pipeline: fabricCI
+      source: data-engineering-dev-ci
+      branch: refs/heads/main
+      trigger:
+        branches:
+          include: [refs/heads/main]
+
+extends:
+  template: /templates/fabric/cd/stages.yml@platform
+  parameters:
+    targets:
+      dev:
+        azureServiceConnection: REPLACE_WITH_DEV_FABRIC_SERVICE_CONNECTION
+        environment: data-engineering-dev-fabric-dev
+      test:
+        azureServiceConnection: REPLACE_WITH_TEST_FABRIC_SERVICE_CONNECTION
+        environment: data-engineering-dev-fabric-test
+      prod:
+        azureServiceConnection: REPLACE_WITH_PROD_FABRIC_SERVICE_CONNECTION
+        environment: data-engineering-dev-fabric-prod

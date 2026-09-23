@@ -1,0 +1,6 @@
+
+# Regenerated locally or published by CI; never edit generated inventories.
+.fabric/generated/
+.fabric/releases/
+__pycache__/
+.DS_Store

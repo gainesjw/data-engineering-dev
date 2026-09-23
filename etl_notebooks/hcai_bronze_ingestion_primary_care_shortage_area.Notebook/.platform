@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "hcai_bronze_ingestion_primary_care_shortage_area",
+    "description": "Notebook extracting raw HCAI data around Primary Care Shortage Areas in California"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a30e0ff9-a873-46b7-b16c-298dbab1fdd5"
+  }
+}

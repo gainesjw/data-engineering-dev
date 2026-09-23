@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "hcai_bronze_ingestion_model_data_ca_nwf",
+    "description": "Notebook extracts HCAI data related to Modeling Data for Nursing Workforce"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5c33f25c-a18f-473a-a1ea-012ca1b66565"
+  }
+}

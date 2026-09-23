@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "hcai_bronze_ingestion_rn_shortage",
+    "description": "Notebook extracting raw HCAI data describing RN Shortage Areas"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5c6df00a-c338-42a5-918d-3c3a26a68638"
+  }
+}
