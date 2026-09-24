@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "hcai_silver_etl_primary_care_shortage_area"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "99ee593d-b4ce-4971-b6e3-a96338735f1f"
+  }
+}
